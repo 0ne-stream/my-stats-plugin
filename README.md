@@ -6,7 +6,7 @@ Addons are based on the Laravel Packages, but since 1Stream is running in produc
 
 Laravel Packages: https://laravel.com/docs/8.x/packages
 
-If your Addon needs to do validation with 1Stream app version, you can check with config('app.version').
+If your Addon needs to do validation with 1Stream app version, you can check with `config('app.version')`.
 
 
 ### What can Addons do
@@ -20,7 +20,7 @@ Beware what addons you are installing to your system, because they can bring sec
 
 
 ### Example Addon
-`https://github.com/0ne-stream/my-stats-plugin`
+https://github.com/0ne-stream/my-stats-plugin
 
 
 ### Specifics
