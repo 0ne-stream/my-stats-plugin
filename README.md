@@ -24,7 +24,7 @@ Beware what addons you are installing to your system, because they can bring sec
 
 
 ### Specifics
-Every Addon needs to contain /init.php file that should serve to register the Service Provider:
+Every Addon needs to contain `/init.php` file that should serve to register the Service Provider:
 
 ```php
 <?php

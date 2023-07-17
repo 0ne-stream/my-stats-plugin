@@ -1,0 +1,30 @@
+{
+    "name": "acme/my_stats",
+    "description": "MyStats Plugin",
+    "keywords": [
+        "my_stats"
+    ],
+    "license": "MIT",
+    "authors": [],
+    "require": {
+        "php" : "^7.2.5|^8.1",
+        "illuminate/auth": "^6.0|^7.0|^8.0",
+        "illuminate/container": "^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\MyStats\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Acme\\MyStats\\MyStatsPluginServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
